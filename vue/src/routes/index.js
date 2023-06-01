@@ -3,6 +3,7 @@ import DefaultLayout from "../components/DefaultLayout.vue"
 import Dashboard from "../views/Dashboard.vue"
 import Login from "../views/Login.vue"
 import Register from "../views/Register.vue"
+import Survey from "../views/Survey.vue"
 
 
 const routes = [
@@ -15,6 +16,11 @@ const routes = [
         path: '/dashboard',
         name: 'Dashboard',
         component: Dashboard
+      },
+      {
+        path: '/surveys',
+        name: 'Survey',
+        component: Survey
       },
     ]
   },
